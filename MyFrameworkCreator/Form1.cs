@@ -122,15 +122,44 @@ namespace MyFrameworkCreator
                     RichTextBox rtb = new RichTextBox();
                     rtb.Dock = DockStyle.Fill;
 
+                    List<Kolon> kolonlar = new List<Kolon>();
+
                     foreach (DataRow dr in dt.Rows)
                     {
-                        rtb.Text += dr["column_name"].ToString() + Environment.NewLine;
+                        Kolon k = new Kolon()
+                        {
+                            Id = int.Parse(dr["column_id"].ToString()),
+                            Name = dr["column_name"].ToString(),
+                            MaxLength = (dr["max_length"] == DBNull.Value) ? null : (int?)int.Parse(dr["max_length"].ToString()),
+                            TypeName = dr["ctype_name"].ToString(),
+                            IsIdentity = (bool)dr["is_identity"],
+                            IsNullable = (bool)dr["is_nullable"]
+                        };
+
+                        kolonlar.Add(k);
                     }
+
+                    rtb.Tag = kolonlar;
+                    CreateClassFile(rtb, t);
 
                     tp.Controls.Add(rtb);
                     tabControl1.TabPages.Add(tp);
                 }
             }
+        }
+
+        private void CreateClassFile(RichTextBox rtb, Tablo t)
+        {
+            List<Kolon> kolonlar = rtb.Tag as List<Kolon>;
+
+            rtb.Text += "using System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\n\nnamespace Entities\n{\n\tpublic class " + t.Name + "\n\t{\n";
+
+            foreach (Kolon kolon in kolonlar)
+            {
+                rtb.Text += "\t\t" + kolon.GetCSharpPropText() + Environment.NewLine;
+            }
+
+            rtb.Text += "\n\t}\n} ";
         }
     }
 }

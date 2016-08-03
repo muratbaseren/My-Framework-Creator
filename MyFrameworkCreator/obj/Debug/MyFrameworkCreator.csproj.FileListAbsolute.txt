@@ -12,3 +12,10 @@ c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFramew
 C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.exe.config
 C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.exe
 C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.pdb
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.exe
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.pdb
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\bin\Debug\AdoNetHelper.pdb
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.csprojResolveAssemblyReference.cache
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.Form1.resources
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.Properties.Resources.resources
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.csproj.GenerateResource.Cache
