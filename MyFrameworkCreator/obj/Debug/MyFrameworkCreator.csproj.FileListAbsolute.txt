@@ -1,0 +1,14 @@
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.exe.config
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.exe
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.pdb
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\bin\Debug\AdoNetHelper.dll
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\bin\Debug\AdoNetHelper.pdb
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.csprojResolveAssemblyReference.cache
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.Form1.resources
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.Properties.Resources.resources
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.csproj.GenerateResource.Cache
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.exe
+c:\users\sc501\documents\visual studio 2015\Projects\MyFrameworkCreator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.pdb
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\bin\Debug\MyFrameworkCreator.exe.config
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.exe
+C:\Users\SC501\Documents\GitHub\My-Framework-Creator\MyFrameworkCreator\obj\Debug\MyFrameworkCreator.pdb
