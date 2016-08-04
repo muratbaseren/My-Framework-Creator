@@ -47,6 +47,12 @@ namespace MyFrameworkCreator
                 case "tinyint":
                     typ = "byte";
                     break;
+                case "uniqueidentifier":
+                    typ = "Guid";
+                    break;
+                case "image":
+                    typ = "byte[]";
+                    break;
                 default:
                     typ = "object";
                     break;
@@ -57,6 +63,7 @@ namespace MyFrameworkCreator
 
         public override string ToString()
         {
+            // Kolon adı gösterilir.
             return Name;
         }
     }
