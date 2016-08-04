@@ -13,6 +13,7 @@ namespace MyFrameworkCreator
 
         public override string ToString()
         {
+            // Veritabanı adı döndürülür.
             return Name;
         }
     }
