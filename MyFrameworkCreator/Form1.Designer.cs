@@ -30,46 +30,46 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.dosyaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtSunucu = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cmbYontem = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtKullanici = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtSifre = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cmbVeritabanlari = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.clbTablolar = new System.Windows.Forms.CheckedListBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnBaglan = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.saveToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.printToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.cutToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.copyToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnOlustur = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.clbTablolar = new System.Windows.Forms.CheckedListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cmbVeritabanlari = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBaglan = new System.Windows.Forms.Button();
+            this.cmbYontem = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.txtKullanici = new System.Windows.Forms.TextBox();
+            this.txtSunucu = new System.Windows.Forms.TextBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -81,6 +81,12 @@
             this.menuStrip1.Size = new System.Drawing.Size(708, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dosyaToolStripMenuItem
+            // 
+            this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
+            this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.dosyaToolStripMenuItem.Text = "Dosya";
             // 
             // toolStrip1
             // 
@@ -102,227 +108,6 @@
             this.toolStrip1.Size = new System.Drawing.Size(708, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // dosyaToolStripMenuItem
-            // 
-            this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
-            this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.dosyaToolStripMenuItem.Text = "Dosya";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 549);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(708, 22);
-            this.statusStrip1.TabIndex = 2;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 49);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.panel1);
-            this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(708, 500);
-            this.splitContainer1.SplitterDistance = 270;
-            this.splitContainer1.TabIndex = 3;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnBaglan);
-            this.groupBox1.Controls.Add(this.cmbYontem);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtSifre);
-            this.groupBox1.Controls.Add(this.txtKullanici);
-            this.groupBox1.Controls.Add(this.txtSunucu);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(270, 197);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Bağlantı";
-            // 
-            // txtSunucu
-            // 
-            this.txtSunucu.Location = new System.Drawing.Point(86, 25);
-            this.txtSunucu.Name = "txtSunucu";
-            this.txtSunucu.Size = new System.Drawing.Size(178, 26);
-            this.txtSunucu.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label1.Location = new System.Drawing.Point(12, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Sunucu :";
-            // 
-            // cmbYontem
-            // 
-            this.cmbYontem.FormattingEnabled = true;
-            this.cmbYontem.Items.AddRange(new object[] {
-            "Windows Auth.",
-            "SQL Auth."});
-            this.cmbYontem.Location = new System.Drawing.Point(86, 57);
-            this.cmbYontem.Name = "cmbYontem";
-            this.cmbYontem.Size = new System.Drawing.Size(178, 26);
-            this.cmbYontem.TabIndex = 1;
-            this.cmbYontem.SelectedIndexChanged += new System.EventHandler(this.cmbYontem_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label2.Location = new System.Drawing.Point(12, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Yöntem :";
-            // 
-            // txtKullanici
-            // 
-            this.txtKullanici.Enabled = false;
-            this.txtKullanici.Location = new System.Drawing.Point(86, 89);
-            this.txtKullanici.Name = "txtKullanici";
-            this.txtKullanici.Size = new System.Drawing.Size(178, 26);
-            this.txtKullanici.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label3.Location = new System.Drawing.Point(12, 96);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Kullanıcı :";
-            // 
-            // txtSifre
-            // 
-            this.txtSifre.Enabled = false;
-            this.txtSifre.Location = new System.Drawing.Point(86, 121);
-            this.txtSifre.Name = "txtSifre";
-            this.txtSifre.PasswordChar = '*';
-            this.txtSifre.Size = new System.Drawing.Size(178, 26);
-            this.txtSifre.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label4.Location = new System.Drawing.Point(12, 128);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Şifre :";
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.clbTablolar);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.cmbVeritabanlari);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 197);
-            this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(8);
-            this.panel1.Size = new System.Drawing.Size(270, 303);
-            this.panel1.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label5.Location = new System.Drawing.Point(8, 8);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(254, 27);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Veritabanları";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // cmbVeritabanlari
-            // 
-            this.cmbVeritabanlari.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cmbVeritabanlari.FormattingEnabled = true;
-            this.cmbVeritabanlari.Items.AddRange(new object[] {
-            "Windows Auth.",
-            "SQL Auth."});
-            this.cmbVeritabanlari.Location = new System.Drawing.Point(8, 35);
-            this.cmbVeritabanlari.Name = "cmbVeritabanlari";
-            this.cmbVeritabanlari.Size = new System.Drawing.Size(254, 26);
-            this.cmbVeritabanlari.TabIndex = 0;
-            this.cmbVeritabanlari.SelectedIndexChanged += new System.EventHandler(this.cmbVeritabanlari_SelectedIndexChanged);
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.label6.Location = new System.Drawing.Point(8, 61);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(254, 27);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Tablolar";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // clbTablolar
-            // 
-            this.clbTablolar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clbTablolar.FormattingEnabled = true;
-            this.clbTablolar.Location = new System.Drawing.Point(8, 88);
-            this.clbTablolar.Name = "clbTablolar";
-            this.clbTablolar.Size = new System.Drawing.Size(254, 207);
-            this.clbTablolar.TabIndex = 1;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(434, 500);
-            this.tabControl1.TabIndex = 0;
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // btnBaglan
-            // 
-            this.btnBaglan.Image = global::MyFrameworkCreator.Properties.Resources._1470227117_office_47;
-            this.btnBaglan.Location = new System.Drawing.Point(164, 153);
-            this.btnBaglan.Name = "btnBaglan";
-            this.btnBaglan.Size = new System.Drawing.Size(100, 33);
-            this.btnBaglan.TabIndex = 4;
-            this.btnBaglan.Text = "Bağlan";
-            this.btnBaglan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBaglan.UseVisualStyleBackColor = true;
-            this.btnBaglan.Click += new System.EventHandler(this.btnBaglan_Click);
             // 
             // newToolStripButton
             // 
@@ -350,6 +135,7 @@
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.saveToolStripButton.Text = "&Save";
+            this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
             // printToolStripButton
             // 
@@ -359,6 +145,11 @@
             this.printToolStripButton.Name = "printToolStripButton";
             this.printToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.printToolStripButton.Text = "&Print";
+            // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
             // 
             // cutToolStripButton
             // 
@@ -387,6 +178,11 @@
             this.pasteToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.pasteToolStripButton.Text = "&Paste";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
             // helpToolStripButton
             // 
             this.helpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -395,6 +191,11 @@
             this.helpToolStripButton.Name = "helpToolStripButton";
             this.helpToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.helpToolStripButton.Text = "He&lp";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // btnOlustur
             // 
@@ -405,6 +206,206 @@
             this.btnOlustur.Size = new System.Drawing.Size(23, 22);
             this.btnOlustur.Text = "toolStripButton1";
             this.btnOlustur.Click += new System.EventHandler(this.btnOlustur_Click);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Location = new System.Drawing.Point(0, 549);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(708, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 49);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.panel1);
+            this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
+            this.splitContainer1.Size = new System.Drawing.Size(708, 500);
+            this.splitContainer1.SplitterDistance = 270;
+            this.splitContainer1.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.clbTablolar);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.cmbVeritabanlari);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 197);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(8);
+            this.panel1.Size = new System.Drawing.Size(270, 303);
+            this.panel1.TabIndex = 1;
+            // 
+            // clbTablolar
+            // 
+            this.clbTablolar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.clbTablolar.FormattingEnabled = true;
+            this.clbTablolar.Location = new System.Drawing.Point(8, 88);
+            this.clbTablolar.Name = "clbTablolar";
+            this.clbTablolar.Size = new System.Drawing.Size(254, 207);
+            this.clbTablolar.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label6.Location = new System.Drawing.Point(8, 61);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(254, 27);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Tablolar";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // cmbVeritabanlari
+            // 
+            this.cmbVeritabanlari.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cmbVeritabanlari.FormattingEnabled = true;
+            this.cmbVeritabanlari.Items.AddRange(new object[] {
+            "Windows Auth.",
+            "SQL Auth."});
+            this.cmbVeritabanlari.Location = new System.Drawing.Point(8, 35);
+            this.cmbVeritabanlari.Name = "cmbVeritabanlari";
+            this.cmbVeritabanlari.Size = new System.Drawing.Size(254, 26);
+            this.cmbVeritabanlari.TabIndex = 0;
+            this.cmbVeritabanlari.SelectedIndexChanged += new System.EventHandler(this.cmbVeritabanlari_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label5.Location = new System.Drawing.Point(8, 8);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(254, 27);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Veritabanları";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnBaglan);
+            this.groupBox1.Controls.Add(this.cmbYontem);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtSifre);
+            this.groupBox1.Controls.Add(this.txtKullanici);
+            this.groupBox1.Controls.Add(this.txtSunucu);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(270, 197);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Bağlantı";
+            // 
+            // btnBaglan
+            // 
+            this.btnBaglan.Image = global::MyFrameworkCreator.Properties.Resources._1470227117_office_47;
+            this.btnBaglan.Location = new System.Drawing.Point(164, 153);
+            this.btnBaglan.Name = "btnBaglan";
+            this.btnBaglan.Size = new System.Drawing.Size(100, 33);
+            this.btnBaglan.TabIndex = 4;
+            this.btnBaglan.Text = "Bağlan";
+            this.btnBaglan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBaglan.UseVisualStyleBackColor = true;
+            this.btnBaglan.Click += new System.EventHandler(this.btnBaglan_Click);
+            // 
+            // cmbYontem
+            // 
+            this.cmbYontem.FormattingEnabled = true;
+            this.cmbYontem.Items.AddRange(new object[] {
+            "Windows Auth.",
+            "SQL Auth."});
+            this.cmbYontem.Location = new System.Drawing.Point(86, 57);
+            this.cmbYontem.Name = "cmbYontem";
+            this.cmbYontem.Size = new System.Drawing.Size(178, 26);
+            this.cmbYontem.TabIndex = 1;
+            this.cmbYontem.SelectedIndexChanged += new System.EventHandler(this.cmbYontem_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label2.Location = new System.Drawing.Point(12, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Yöntem :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label4.Location = new System.Drawing.Point(12, 128);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Şifre :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label3.Location = new System.Drawing.Point(12, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Kullanıcı :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.label1.Location = new System.Drawing.Point(12, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Sunucu :";
+            // 
+            // txtSifre
+            // 
+            this.txtSifre.Enabled = false;
+            this.txtSifre.Location = new System.Drawing.Point(86, 121);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.PasswordChar = '*';
+            this.txtSifre.Size = new System.Drawing.Size(178, 26);
+            this.txtSifre.TabIndex = 3;
+            // 
+            // txtKullanici
+            // 
+            this.txtKullanici.Enabled = false;
+            this.txtKullanici.Location = new System.Drawing.Point(86, 89);
+            this.txtKullanici.Name = "txtKullanici";
+            this.txtKullanici.Size = new System.Drawing.Size(178, 26);
+            this.txtKullanici.TabIndex = 2;
+            // 
+            // txtSunucu
+            // 
+            this.txtSunucu.Location = new System.Drawing.Point(86, 25);
+            this.txtSunucu.Name = "txtSunucu";
+            this.txtSunucu.Size = new System.Drawing.Size(178, 26);
+            this.txtSunucu.TabIndex = 0;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(434, 500);
+            this.tabControl1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -417,7 +418,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "My Framework Creator";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -429,9 +430,9 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

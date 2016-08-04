@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -160,6 +161,29 @@ namespace MyFrameworkCreator
             }
 
             rtb.Text += "\n\t}\n} ";
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            if(tabControl1.TabPages.Count > 0)
+            {
+                FolderBrowserDialog fbd = new FolderBrowserDialog();
+                fbd.SelectedPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                fbd.ShowNewFolderButton = true;
+                fbd.Description = "C# class dosyalarının oluşturulacağı klasörü seçiniz.";
+
+                if(fbd.ShowDialog() == DialogResult.OK)
+                {
+                    foreach (TabPage tp in tabControl1.TabPages)
+                    {
+                        RichTextBox rtb = tp.Controls[0] as RichTextBox;
+                        File.WriteAllText(fbd.SelectedPath + "/" + tp.Text + ".cs", rtb.Text);
+                    }
+
+                    MessageBox.Show("Dosyalar oluşturuldu.");
+                }
+                
+            }
         }
     }
 }
